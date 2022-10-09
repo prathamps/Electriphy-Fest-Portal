@@ -1,23 +1,35 @@
 {
-  "name": "electriphy",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "postcss": "^8.4.17",
-    "tailwindcss": "^3.1.8"
-  }
+	"name": "electriphy",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"css-loader": "^6.7.1",
+		"firebase": "^9.11.0",
+		"framer-motion": "^7.5.3",
+		"next": "12.3.1",
+		"parcel-bundler": "^1.12.5",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "^4.4.0",
+		"react-scroll": "^1.8.7",
+		"sass-loader": "^13.1.0",
+		"style-loader": "^3.3.1"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.12",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"eslint": "8.24.0",
+		"eslint-config-next": "12.3.1",
+		"postcss": "^8.4.17",
+		"tailwindcss": "^3.1.8"
+	}
 }
