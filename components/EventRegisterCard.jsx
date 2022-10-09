@@ -9,10 +9,10 @@ export const EventRegisterCard = ({
 }) => {
 	const [isOpen, setIsOpen] = useState(false)
 
-	const [studentname1, setStudentName1] = useState()
-	const [studentclass1, setStudentClass1] = useState()
-	const [studentname2, setStudentName2] = useState()
-	const [studentclass2, setStudentClass2] = useState()
+	const [studentname1, setStudentName1] = useState("")
+	const [studentclass1, setStudentClass1] = useState("")
+	const [studentname2, setStudentName2] = useState("")
+	const [studentclass2, setStudentClass2] = useState("")
 
 	const handleChange = () => {
 		let updatedValue
@@ -23,8 +23,8 @@ export const EventRegisterCard = ({
 						class: studentclass1,
 					},
 					participant_2: {
-						name: studentname1,
-						class: studentclass1,
+						name: studentname2,
+						class: studentclass2,
 					},
 			  })
 			: (updatedValue = {
@@ -96,7 +96,7 @@ export const EventRegisterCard = ({
 							Quibusdam non deleniti totam quae esse laboriosam quasi expedita
 							animi illo maxime?
 						</p>
-						<p class Name="pt-4">
+						<p className="pt-4">
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
 							dolore.
 						</p>
@@ -117,6 +117,7 @@ export const EventRegisterCard = ({
 											<input
 												className="border-2 rounded-lg p-2 flex border-gray-300"
 												type="text"
+												required
 												name="student_name"
 												placeholder="Student Name"
 												value={studentname1}
@@ -198,7 +199,7 @@ export const EventRegisterCard = ({
 											<input
 												className="border-2 rounded-lg p-2 flex border-gray-300"
 												type="text"
-												name="student_name"
+												name="student_name_single"
 												placeholder="Student Name"
 												value={studentname1}
 												onChange={(e) => {
@@ -218,7 +219,7 @@ export const EventRegisterCard = ({
 											<input
 												className="border-2 rounded-lg p-2  flex border-gray-300"
 												type="text"
-												name="student_class"
+												name="student_class_single"
 												placeholder="Student Class"
 												value={studentclass1}
 												onChange={(e) => {
