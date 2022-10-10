@@ -123,7 +123,7 @@ export const Registration = () => {
 										/>
 										<EventRegisterCard
 											title={"Videography"}
-											no_input={[1, 2]}
+											no_input={[1, 2, 3]}
 											eventParticipants={eventParticipants.videography}
 											setEventParticipants={setEventParticipants}
 										/>
@@ -134,15 +134,17 @@ export const Registration = () => {
 											setEventParticipants={setEventParticipants}
 										/>
 									</motion.div>
-									<button
-										className="w-full p-4 mt-4 font-bold"
-										style={{
-											background: loader ? "#ccc" : "#fff",
-											color: "#000",
-										}}
-									>
-										Register
-									</button>
+									<div className="w-full flex place-content-center p-8">
+										<button
+											className="w-full md:w-1/4 rounded-2xl p-4 mt-4 font-bold"
+											style={{
+												background: loader ? "#ccc" : "#fff",
+												color: "#000",
+											}}
+										>
+											Register
+										</button>
+									</div>
 								</form>
 							</div>
 						</div>

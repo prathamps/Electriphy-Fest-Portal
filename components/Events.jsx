@@ -30,31 +30,31 @@ const Events = () => {
 						<EventItem
 							title="Mock Press"
 							backgroundImg={mockpressImg}
-							projectUrl="/mockpress"
+							projectUrl="/videography"
 							tech="Knife to meet you"
 						/>
 						<EventItem
 							title="Treasure Hunt"
 							backgroundImg={tresurehuntImg}
-							projectUrl="/treasurehunt"
+							projectUrl="/videography"
 							tech="Into the voide"
 						/>
 						<EventItem
 							title="Paper Presentation"
 							backgroundImg={paperpresentationImg}
-							projectUrl="/paperpresentation"
+							projectUrl="/videography"
 							tech="Aura"
 						/>
 						<EventItem
 							title="Circuit Designer"
 							backgroundImg={circuitdesignerImg}
-							projectUrl="/circuitdesigner"
+							projectUrl="/videography"
 							tech="Execuit"
 						/>
 						<EventItem
 							title="Quiz"
 							backgroundImg={quizImg}
-							projectUrl="/paperpresentation"
+							projectUrl="/videography"
 							tech="Zap"
 						/>
 					</div>

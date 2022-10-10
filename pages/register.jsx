@@ -39,9 +39,9 @@ const register = () => {
 					background: "#1E1E1E",
 				}}
 			>
-				<div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-					<div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300">
+				<div className="md:max-w-[1240px] mx-auto flex flex-col lg:flex-col overflow-clip  justify-center h-64 lg:h-full">
+					<div className="grid grid-cols-4 gap-8 gap-x-60 md:gap-8 overflow-x-scroll overflow-y-hidden lg:overflow-hidden">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center ">
 								<div className="m-auto">
 									<Image src={Maftlaal} width="64px" height="64px" alt="/" />
@@ -51,8 +51,8 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 ">
-							<div className="grid grid-cols-2 gap-4 justify-center items-center">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
+							<div className="grid grid-cols-2 gap-4  justify-center items-center">
 								<div className="m-auto">
 									<Image src={Tata} width="64px" height="64px" alt="/" />
 								</div>
@@ -61,7 +61,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 ">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Wipro} width="64px" height="64px" alt="/" />
@@ -71,7 +71,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 ">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Infosys} width="64px" height="64px" alt="/" />
@@ -81,7 +81,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 ">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Google} width="64px" height="64px" alt="/" />
@@ -91,7 +91,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 ">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Niveus} width="64px" height="64px" alt="/" />
@@ -101,7 +101,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 ">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Zomato} width="64px" height="64px" alt="/" />
@@ -111,7 +111,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300   w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image src={Swiggy} width="64px" height="64px" alt="/" />
@@ -127,10 +127,6 @@ const register = () => {
 
 			<div className="max-w-[1240px] mx-auto p-2 py-8">
 				<Registration />
-
-				<Link href="/">
-					<p className="underline cursor-pointer pt-96">Back</p>
-				</Link>
 			</div>
 		</div>
 	)
