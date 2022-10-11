@@ -4,7 +4,17 @@ import videographyImg from "../public/assets/projects/videography.png"
 import { RiRadioButtonFill } from "react-icons/ri"
 import Link from "next/link"
 
-const videography = () => {
+const videography = (
+	rule1,
+	rule2,
+	rule3,
+	rule4,
+	rule5,
+	rule6,
+	rule7,
+	rule8,
+	rule9
+) => {
 	return (
 		<div className="w-full">
 			<div className="w-screen h-[50vh] relative">
@@ -17,7 +27,7 @@ const videography = () => {
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">Videography</h2>
+					<h2 className="py-2">{"Videography"}</h2>
 					<h3>Pixels over the vaccum</h3>
 				</div>
 			</div>
@@ -44,20 +54,29 @@ const videography = () => {
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> 1 Team per college
+								<RiRadioButtonFill className="pr-1" /> {"Rule 1"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> Maximum 3 participants
+								<RiRadioButtonFill className="pr-1" /> {"Rule 2"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> The video should be...
+								<RiRadioButtonFill className="pr-1" /> {"Rule 3"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								The video should be...
+								{"Rule 4"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> The video should be...
+								<RiRadioButtonFill className="pr-1" /> {"Rule 5"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 6"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 7"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 8"}
 							</p>
 						</div>
 					</div>

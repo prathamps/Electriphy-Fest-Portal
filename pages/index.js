@@ -5,6 +5,7 @@ import Main from "../components/Main"
 import Events from "../components/Events"
 import Sponsers from "../components/Sponsers"
 import { HiOutlineChevronDoubleUp } from "react-icons/hi"
+import Footer from "../components/Footer"
 
 export default function Home() {
 	return (
@@ -35,6 +36,7 @@ export default function Home() {
 					</Link>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	)
 }

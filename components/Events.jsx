@@ -26,36 +26,77 @@ const Events = () => {
 							backgroundImg={videographyImg}
 							projectUrl="/videography"
 							tech="Pixels over the vaccum"
+							rule1="1. One Person from every college."
+							rule2="2. Prelims in the forenoon, finals before the valecdictory ceremony."
+							rule3="3. No Usage of profane words"
+							rule4="4. There will be a cross question by the judges and the audience and the evaluation is based on the performances "
+							rule5="5. Participants will be informed of their characters an hour prior to the event"
+							rule6="6. accessories will be provided to act out stuff"
 						/>
 						<EventItem
 							title="Mock Press"
 							backgroundImg={mockpressImg}
 							projectUrl="/videography"
 							tech="Knife to meet you"
+							rule1="1. One Person from every college."
+							rule2="2. Team must consist of two participants"
+							rule3="3. All the necessary components and the circuit diagram shall be provided"
+							rule4="4. After completing the cicuit, the circuit will be tested"
+							rule5="5. Team whose circuit gives the required output first, wins"
 						/>
 						<EventItem
 							title="Treasure Hunt"
 							backgroundImg={tresurehuntImg}
 							projectUrl="/videography"
 							tech="Into the voide"
+							rule1="1. One Person from every college."
+							rule2="2. Team must consist of two participants"
+							rule3="3. Comprises of four rounds"
+							rule4="4. Theme is physical sciences "
 						/>
 						<EventItem
 							title="Paper Presentation"
 							backgroundImg={paperpresentationImg}
 							projectUrl="/videography"
 							tech="Aura"
+							description="Mock Press aka Knife to meet you"
+							rule1="1. One Person from every college."
+							rule2="2. A team can consist of maximum 4 participants."
+							rule3="3. One mobile phone is permitted per Team (Must have an active data connection)."
+							rule4="4. Every team will be timed. "
+							rule5="5. There will be boundaries set so you know where to look"
+							rule6="6. Cheating, Sabotaging, Replacing items etc, will lead to instant disqualification."
+							rule7="7. No mingling with the other teams, or taking pictures of the campus prior to the event"
+							rule8="8. A  team must stick together at all times"
+							rule9="9. No asking for help with any of the people involved in the event, volunteers included "
 						/>
 						<EventItem
 							title="Circuit Designer"
 							backgroundImg={circuitdesignerImg}
 							projectUrl="/videography"
 							tech="Execuit"
+							rule1="1. One Team from every college."
+							rule2="2. A team can consist of maximum 2 participants."
+							rule3="3. Video can be edited."
+							rule4="4. Creativity is welcomed. "
+							rule5="5. Minimum requirements are for the video to be in 720p@30fps"
+							rule6="6. Video must be submitted in mp4 format."
+							rule7="7. Certain places are restricted around the campus"
+							rule8="8. No going outside the campus not even the gate"
 						/>
 						<EventItem
 							title="Quiz"
 							backgroundImg={quizImg}
 							projectUrl="/videography"
 							tech="Zap"
+							rule1="1. One Team from every college."
+							rule2="2. A team can consist of maximum 2 participants."
+							rule3="3. A soft copy should be submitted atleast a day prior to the event, along with a hard copy on the day."
+							rule4="4. Each team will get 6 + 2 minutes to present their paper and two minutes will be devoted to question from the judges "
+							rule5="5. The participants will have to present their papers in MsPowerPoint format only. Blantant plagiarism from the internet is not encourages and will not be entertained."
+							rule6="6. The decision of the judges and event heads are considered definitive and binding for all and cannot be challeneged."
+							rule7="7. Topics are resitricted to PU physics text book"
+							rule8="8. Failure to comply with any of the rules may result in the paper being rejected."
 						/>
 					</div>
 				</div>

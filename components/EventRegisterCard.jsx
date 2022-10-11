@@ -6,6 +6,16 @@ export const EventRegisterCard = ({
 	no_input,
 	eventParticipants,
 	setEventParticipants,
+	description,
+	rule1,
+	rule2,
+	rule3,
+	rule4,
+	rule5,
+	rule6,
+	rule7,
+	rule8,
+	rule9,
 }) => {
 	const [isOpen, setIsOpen] = useState(false)
 
@@ -107,15 +117,16 @@ export const EventRegisterCard = ({
 						transition={{ duration: 1 }}
 						className="max-w-[1240px]"
 					>
-						<p className="pt-4">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Quibusdam non deleniti totam quae esse laboriosam quasi expedita
-							animi illo maxime?
-						</p>
-						<p className="pt-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
-							dolore.
-						</p>
+						<p className="pt-4">{description}</p>
+						<p className="pt-4">{rule1}</p>
+						<p className="pt-4">{rule2}</p>
+						<p className="pt-4">{rule3}</p>
+						<p className="pt-4">{rule4}</p>
+						<p className="pt-4">{rule5}</p>
+						<p className="pt-4">{rule6}</p>
+						<p className="pt-4">{rule7}</p>
+						<p className="pt-4">{rule8}</p>
+						<p className="pt-4">{rule9}</p>
 						{no_input.length === 3 ? (
 							<h4 className="pt-2">Three Participants</h4>
 						) : no_input.length === 2 ? (

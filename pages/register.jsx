@@ -4,14 +4,7 @@ import { RiRadioButtonFill } from "react-icons/ri"
 import Link from "next/link"
 import registerbackgroundImg from "../public/assets/projects/registerbackground.png"
 import { Registration } from "../components/Registration"
-import Maftlaal from "../public/assets/skills/Mafatlal.webp"
-import Tata from "../public/assets/skills/tata.png"
-import Wipro from "../public/assets/skills/wipro.png"
-import Infosys from "../public/assets/skills/infosys.png"
-import Google from "../public/assets/skills/google.png"
-import Zomato from "../public/assets/skills/zomato.png"
-import Niveus from "../public/assets/skills/niveus.png"
-import Swiggy from "../public/assets/skills/swiggy.png"
+import PlaceholderImg from "../public/assets/skills/placeholder.png"
 
 const register = () => {
 	return (
@@ -44,80 +37,120 @@ const register = () => {
 						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center ">
 								<div className="m-auto">
-									<Image src={Maftlaal} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Maftlaal</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4  justify-center items-center">
 								<div className="m-auto">
-									<Image src={Tata} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Tata</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Wipro} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Wipro</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Infosys} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Infosys</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Google} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Google</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Niveus} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Niveus</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Zomato} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Zomato</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
 						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300   w-56 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
-									<Image src={Swiggy} width="64px" height="64px" alt="/" />
+									<Image
+										src={PlaceholderImg}
+										width="64px"
+										height="64px"
+										alt="/"
+									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Swiggy</h3>
+									<h3 className="text-white">Placeholder</h3>
 								</div>
 							</div>
 						</div>
