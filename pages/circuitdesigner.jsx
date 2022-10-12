@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import circuitdesignerImg from "../public/assets/projects/circuitdesigner.png"
+import videographyImg from "../public/assets/projects/videography.png"
 import { RiRadioButtonFill } from "react-icons/ri"
 import Link from "next/link"
 
@@ -23,18 +23,18 @@ const circuitdesigner = (
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={circuitdesignerImg}
+					src={videographyImg}
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">{title}</h2>
-					<h3>Execuit</h3>
+					<h2 className="py-2">{"Videography"}</h2>
+					<h3>Pixels over the vaccum</h3>
 				</div>
 			</div>
 
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
 				<div className="col-span-4">
-					<p>Circuit Desinging</p>
+					<p>Videography</p>
 					<h2 className="text-white">Overview</h2>
 					<p className="text-[#bbbbbb]">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
@@ -54,20 +54,29 @@ const circuitdesigner = (
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {rule1}
+								<RiRadioButtonFill className="pr-1" /> {"Rule 1"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {rule2}
+								<RiRadioButtonFill className="pr-1" /> {"Rule 2"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {rule3}
+								<RiRadioButtonFill className="pr-1" /> {"Rule 3"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								{rule4}
+								{"Rule 4"}
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {rule5}
+								<RiRadioButtonFill className="pr-1" /> {"Rule 5"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 6"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 7"}
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" /> {"Rule 8"}
 							</p>
 						</div>
 					</div>
