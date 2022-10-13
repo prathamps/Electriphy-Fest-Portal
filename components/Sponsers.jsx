@@ -18,7 +18,7 @@ const Sponsers = () => {
 					Our Sponsers
 				</p>
 				<div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl   lg:w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center ">
 							<div className="m-auto">
 								<Image
@@ -35,7 +35,7 @@ const Sponsers = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl  w-full lg:w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -50,7 +50,7 @@ const Sponsers = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl w-full lg:w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -65,7 +65,7 @@ const Sponsers = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl  w-full lg:w-96  hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -80,7 +80,7 @@ const Sponsers = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl w-full  lg:w-96  hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
@@ -95,7 +95,7 @@ const Sponsers = () => {
 							</div>
 						</div>
 					</div>
-					<div className="p-6 shadow-xl rounded-xl w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">
+					<div className="p-6 shadow-xl rounded-xl  w-full lg:w-96  hover:scale-105 ease-in duration-300 bg-[#131216]">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
