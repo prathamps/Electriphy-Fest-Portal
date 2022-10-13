@@ -5,6 +5,7 @@ import Link from "next/link"
 import registerbackgroundImg from "../public/assets/projects/registerbackground.png"
 import { Registration } from "../components/Registration"
 import PlaceholderImg from "../public/assets/skills/placeholder.png"
+import genralrefrigerationImg from "../public/assets/skills/genralrefrigeration.png"
 
 const register = () => {
 	return (
@@ -33,23 +34,25 @@ const register = () => {
 				}}
 			>
 				<div className="md:max-w-[1240px] mx-auto flex flex-col lg:flex-col overflow-clip  justify-center h-64 lg:h-full">
-					<div className="grid grid-cols-4 gap-8 gap-x-60 md:gap-8 overflow-x-scroll overflow-y-hidden lg:overflow-hidden">
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-56 mx-14">
+					<div className="grid grid-cols-3 gap-8 gap-x-60 md:gap-8 overflow-x-scroll overflow-y-hidden lg:overflow-hidden">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center ">
 								<div className="m-auto">
 									<Image
-										src={PlaceholderImg}
+										src={genralrefrigerationImg}
 										width="64px"
 										height="64px"
 										alt="/"
 									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+									<h3 className="text-white">
+										General Refrigeration & Engineering Works
+									</h3>
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4  justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -64,7 +67,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -79,7 +82,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300  w-56 mx-14">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300  w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -94,7 +97,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -109,37 +112,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
-							<div className="grid grid-cols-2 gap-4 justify-center items-center">
-								<div className="m-auto">
-									<Image
-										src={PlaceholderImg}
-										width="64px"
-										height="64px"
-										alt="/"
-									/>
-								</div>
-								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
-								</div>
-							</div>
-						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-56 mx-14">
-							<div className="grid grid-cols-2 gap-4 justify-center items-center">
-								<div className="m-auto">
-									<Image
-										src={PlaceholderImg}
-										width="64px"
-										height="64px"
-										alt="/"
-									/>
-								</div>
-								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
-								</div>
-							</div>
-						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300   w-56 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
