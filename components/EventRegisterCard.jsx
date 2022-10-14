@@ -25,9 +25,30 @@ export const EventRegisterCard = ({
 	const [studentclass2, setStudentClass2] = useState("")
 	const [studentname3, setStudentName3] = useState("")
 	const [studentclass3, setStudentClass3] = useState("")
+	const [studentname4, setStudentName4] = useState("")
+	const [studentclass4, setStudentClass4] = useState("")
 	const handleChange = () => {
 		let updatedValue
-		no_input.length === 3
+		no_input.length === 4
+			? (updatedValue = {
+					participant_1: {
+						name: studentname1,
+						class: studentclass1,
+					},
+					participant_2: {
+						name: studentname2,
+						class: studentclass2,
+					},
+					participant_3: {
+						name: studentname3,
+						class: studentclass3,
+					},
+					participant_4: {
+						name: studentname4,
+						class: studentclass4,
+					},
+			  })
+			: no_input.length === 3
 			? (updatedValue = {
 					participant_1: {
 						name: studentname1,
@@ -127,7 +148,9 @@ export const EventRegisterCard = ({
 						<p className="pt-4">{rule7}</p>
 						<p className="pt-4">{rule8}</p>
 						<p className="pt-4">{rule9}</p>
-						{no_input.length === 3 ? (
+						{no_input.length === 4 ? (
+							<h4 className="pt-2">Four Participants</h4>
+						) : no_input.length === 3 ? (
 							<h4 className="pt-2">Three Participants</h4>
 						) : no_input.length === 2 ? (
 							<h4 className="pt-2">Two Participants</h4>
@@ -136,7 +159,210 @@ export const EventRegisterCard = ({
 						)}
 
 						<motion.div layout="position" className="w-full py-2">
-							{no_input.length === 3 ? (
+							{no_input.length === 4 ? (
+								<motion.div className="grid md:grid-cols-1 ">
+									<label className="uppercase text-base py-2 text-[#ebe3e3] font-medium">
+										Participant 1:
+									</label>
+									<motion.div className="flex flex-col md:flex-row">
+										<motion.div layout="position" className="flex flex-col">
+											<label className="uppercase text-sm py-2">
+												Student Name
+											</label>
+											<input
+												className="border-2 rounded-lg p-2 flex border-gray-300"
+												type="text"
+												name="student_name"
+												placeholder="Student Name"
+												value={studentname1}
+												onChange={(e) => {
+													setStudentName1(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentName1(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+										<motion.div
+											layout="position"
+											className="flex flex-col md:pl-12"
+										>
+											<label className="uppercase text-sm py-2">
+												Student Class
+											</label>
+											<input
+												className="border-2 rounded-lg p-2  flex border-gray-300"
+												type="text"
+												name="student_class"
+												placeholder="Student Class"
+												value={studentclass1}
+												onChange={(e) => {
+													setStudentClass1(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentClass1(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+									</motion.div>
+									<label className="uppercase text-base py-2 text-[#ebe3e3] font-medium">
+										Participant 2:
+									</label>
+									<motion.div className="flex flex-col  md:flex-row">
+										<motion.div layout="position" className="flex flex-col">
+											<label className="uppercase text-sm py-2">
+												Student Name
+											</label>
+											<input
+												className="border-2 rounded-lg p-2 flex border-gray-300"
+												type="text"
+												name="student_name"
+												placeholder="Student Name"
+												value={studentname2}
+												onChange={(e) => {
+													setStudentName2(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentName2(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+										<motion.div
+											layout="position"
+											className="flex flex-col md:pl-12"
+										>
+											<label className="uppercase text-sm py-2">
+												Student Class
+											</label>
+											<input
+												className="border-2 rounded-lg p-2  flex border-gray-300"
+												type="text"
+												name="student_class"
+												placeholder="Student Class"
+												value={studentclass2}
+												onChange={(e) => {
+													setStudentClass2(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentClass2(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+									</motion.div>
+									<label className="uppercase text-base py-2 text-[#ebe3e3] font-medium">
+										Participant 3:
+									</label>
+									<motion.div className="flex flex-col  md:flex-row">
+										<motion.div layout="position" className="flex flex-col">
+											<label className="uppercase text-sm py-2">
+												Student Name
+											</label>
+											<input
+												className="border-2 rounded-lg p-2 flex border-gray-300"
+												type="text"
+												name="student_name"
+												placeholder="Student Name"
+												value={studentname3}
+												onChange={(e) => {
+													setStudentName3(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentName3(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+										<motion.div
+											layout="position"
+											className="flex flex-col md:pl-12"
+										>
+											<label className="uppercase text-sm py-2">
+												Student Class
+											</label>
+											<input
+												className="border-2 rounded-lg p-2  flex border-gray-300"
+												type="text"
+												name="student_class"
+												placeholder="Student Class"
+												value={studentclass3}
+												onChange={(e) => {
+													setStudentClass3(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentClass3(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+									</motion.div>
+									<label className="uppercase text-base py-2 text-[#ebe3e3] font-medium">
+										Participant 4:
+									</label>
+									<motion.div className="flex flex-col  md:flex-row">
+										<motion.div layout="position" className="flex flex-col">
+											<label className="uppercase text-sm py-2">
+												Student Name
+											</label>
+											<input
+												className="border-2 rounded-lg p-2 flex border-gray-300"
+												type="text"
+												name="student_name"
+												placeholder="Student Name"
+												value={studentname4}
+												onChange={(e) => {
+													setStudentName4(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentName4(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+										<motion.div
+											layout="position"
+											className="flex flex-col md:pl-12"
+										>
+											<label className="uppercase text-sm py-2">
+												Student Class
+											</label>
+											<input
+												className="border-2 rounded-lg p-2  flex border-gray-300"
+												type="text"
+												name="student_class"
+												placeholder="Student Class"
+												value={studentclass4}
+												onChange={(e) => {
+													setStudentClass4(e.target.value)
+													handleChange()
+												}}
+												onClick={(e) => e.stopPropagation()}
+												onBlur={(e) => {
+													setStudentClass4(e.target.value)
+													handleChange()
+												}}
+											/>
+										</motion.div>
+									</motion.div>
+								</motion.div>
+							) : no_input.length === 3 ? (
 								<motion.div className="grid md:grid-cols-1 ">
 									<label className="uppercase text-base py-2 text-[#ebe3e3] font-medium">
 										Participant 1:

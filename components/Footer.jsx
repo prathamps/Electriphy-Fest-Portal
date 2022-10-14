@@ -32,7 +32,10 @@ const Footer = () => {
 						Social Media
 					</span>
 					<span className="text-xs mt-4">Instagram</span>
-					<a className="mt-4" href={"https://www.instagram.com"}>
+					<a
+						className="mt-4"
+						href={"https://instagram.com/electriphy2k22?igshid=YmMyMTA2M2Y="}
+					>
 						<Image
 							width={25}
 							height={25}

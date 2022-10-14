@@ -144,7 +144,7 @@ export const Registration = () => {
 										/>
 										<EventRegisterCard
 											title={"Treasure hunt"}
-											no_input={[1, 2]}
+											no_input={[1, 2, 3, 4]}
 											eventParticipants={eventParticipants.treasure_hunt}
 											setEventParticipants={setEventParticipants}
 											description="Mock Press aka Knife to meet you"
@@ -164,7 +164,7 @@ export const Registration = () => {
 											eventParticipants={eventParticipants.videography}
 											setEventParticipants={setEventParticipants}
 											rule1="1. One Team from every college."
-											rule2="2. A team can consist of maximum 2 participants."
+											rule2="2. A team can consist of maximum 3 participants."
 											rule3="3. Video can be edited."
 											rule4="4. Creativity is welcomed. "
 											rule5="5. Minimum requirements are for the video to be in 720p@30fps"
