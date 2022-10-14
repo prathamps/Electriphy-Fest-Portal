@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import videographyImg from "../public/assets/projects/videography.png"
+import mockpressImg from "../public/assets/projects/mockpress.png"
 import { RiRadioButtonFill } from "react-icons/ri"
 import Link from "next/link"
 
@@ -23,65 +23,48 @@ const mockpress = (
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={videographyImg}
+					src={mockpressImg}
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
 					<h2 className="py-2">{"Videography"}</h2>
-					<h3>Pixels over the vaccum</h3>
+					<h3>Knife to meet you</h3>
 				</div>
 			</div>
 
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
 				<div className="col-span-4">
-					<p>Videography</p>
+					<p>Mock Press</p>
 					<h2 className="text-white">Overview</h2>
-					<p className="text-[#bbbbbb]">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
-						deleniti doloribus nisi officia suscipit amet necessitatibus
-						repudiandae ad ab iste, aut, odio facilis accusamus culpa nostrum et
-						omnis officiis laboriosam! Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Perferendis dolorem veritatis deleniti qui neque.
-						Pariatur tempora necessitatibus, quis quos exercitationem fuga velit
-						quia possimus voluptas unde ratione tenetur quisquam, voluptate quas
-						amet natus aut illum perspiciatis dolor itaque sint? Doloribus
-						laboriosam quia fugit deserunt rem animi in eveniet aperiam!
-						Quaerat.
+					<p className="text-[#bbbbbb] ">
+						Whyd you do it? It wasn{`'`}t me! For the Fame? Money give you crazy
+						happiness!! Go on, Be Creative
 					</p>
 				</div>
-				<div className="col-span-4 md:col-span-1 shadow-xl bg-white shadow-gray-700 rounded-xl py-4 text-black">
+				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
 					<div className="p-2">
 						<p className="text-center font-bold pb-2">Rules</p>
-						<div className="grid grid-cols-3 md:grid-cols-1">
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 1"}
+						<div className="">
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								1. One Person from every college.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 2"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								2. Team must consist of two participants
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 3"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								3. All the necessary components and the circuit diagram shall be
+								provided
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" />
-								{"Rule 4"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								4. After completing the cicuit, the circuit will be tested
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 5"}
-							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 6"}
-							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 7"}
-							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 8"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								5. Team whose circuit gives the required output first, wins
 							</p>
 						</div>
 					</div>
 				</div>
-				<Link href="/#projects">
+				<Link href="/#sponsers">
 					<p className="underline cursor-pointer">Back</p>
 				</Link>
 			</div>

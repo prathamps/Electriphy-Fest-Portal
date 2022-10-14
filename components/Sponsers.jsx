@@ -46,7 +46,7 @@ const Sponsers = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-white">Placeholder</h3>
+								<h3 className="text-white">Coming Soon</h3>
 							</div>
 						</div>
 					</div>
@@ -61,7 +61,7 @@ const Sponsers = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-white">Placeholder</h3>
+								<h3 className="text-white">Coming Soon</h3>
 							</div>
 						</div>
 					</div>
@@ -76,7 +76,7 @@ const Sponsers = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-white">Placeholder</h3>
+								<h3 className="text-white">Coming Soon</h3>
 							</div>
 						</div>
 					</div>
@@ -91,7 +91,7 @@ const Sponsers = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-white">Placeholder</h3>
+								<h3 className="text-white">Coming Soon</h3>
 							</div>
 						</div>
 					</div>
@@ -106,7 +106,7 @@ const Sponsers = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-white">Placeholder</h3>
+								<h3 className="text-white">Coming Soon</h3>
 							</div>
 						</div>
 					</div>

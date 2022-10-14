@@ -33,9 +33,9 @@ const register = () => {
 					background: "#1E1E1E",
 				}}
 			>
-				<div className="md:max-w-[1240px] mx-auto flex flex-col lg:flex-col overflow-clip  justify-center h-64 lg:h-full">
+				<div className="md:max-w-[1240px] mx-auto flex flex-col lg:flex-col overflow-clip  justify-center h-80 lg:h-full">
 					<div className="grid grid-cols-3 gap-8 gap-x-60 md:gap-8 overflow-x-scroll overflow-y-hidden lg:overflow-hidden">
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-72 lg:w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center ">
 								<div className="m-auto">
 									<Image
@@ -52,7 +52,7 @@ const register = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-72 ml-40 mr-14 lg:w-96 lg:mx-14">
 							<div className="grid grid-cols-2 gap-4  justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -63,11 +63,11 @@ const register = () => {
 									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+									<h3 className="text-white">Coming Soon</h3>
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 w-72 ml-40 mr-14 lg:w-96 lg:mx-14 relative left-24 lg:static  ">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -78,11 +78,11 @@ const register = () => {
 									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+									<h3 className="text-white">Coming Soon</h3>
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl ease-in duration-300  w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl ease-in duration-300 w-72 lg:w-96 mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -93,11 +93,11 @@ const register = () => {
 									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+									<h3 className="text-white">Coming Soon</h3>
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 w-72 ml-40 mr-14 lg:w-96 lg:mx-14">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -108,11 +108,11 @@ const register = () => {
 									/>
 								</div>
 								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+									<h3 className="text-white">Coming Soon</h3>
 								</div>
 							</div>
 						</div>
-						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300  w-96 mx-14">
+						<div className="p-6 shadow-xl rounded-xl  ease-in duration-300 w-72 ml-40 mr-14 lg:w-96 lg:mx-14 relative left-24 lg:static">
 							<div className="grid grid-cols-2 gap-4 justify-center items-center">
 								<div className="m-auto">
 									<Image
@@ -122,8 +122,8 @@ const register = () => {
 										alt="/"
 									/>
 								</div>
-								<div className="flex flex-col items-center justify-center">
-									<h3 className="text-white">Placeholder</h3>
+								<div className="flex flex-col items-center  justify-center">
+									<h3 className="text-white">Coming Soon</h3>
 								</div>
 							</div>
 						</div>

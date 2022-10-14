@@ -36,7 +36,7 @@ const Events = () => {
 						<EventItem
 							title="Mock Press"
 							backgroundImg={mockpressImg}
-							projectUrl="/videography"
+							projectUrl="/mockpress"
 							tech="Knife to meet you"
 							rule1="1. One Person from every college."
 							rule2="2. Team must consist of two participants"
@@ -47,8 +47,8 @@ const Events = () => {
 						<EventItem
 							title="Treasure Hunt"
 							backgroundImg={tresurehuntImg}
-							projectUrl="/videography"
-							tech="Into the voide"
+							projectUrl="/treasurehunt"
+							tech="Into the void"
 							rule1="1. One Person from every college."
 							rule2="2. Team must consist of two participants"
 							rule3="3. Comprises of four rounds"
@@ -57,7 +57,7 @@ const Events = () => {
 						<EventItem
 							title="Paper Presentation"
 							backgroundImg={paperpresentationImg}
-							projectUrl="/videography"
+							projectUrl="/paperpresentation"
 							tech="Aura"
 							description="Mock Press aka Knife to meet you"
 							rule1="1. One Person from every college."

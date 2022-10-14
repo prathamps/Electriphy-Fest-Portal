@@ -36,52 +36,40 @@ const videography = (
 				<div className="col-span-4">
 					<p>Videography</p>
 					<h2 className="text-white">Overview</h2>
-					<p className="text-[#bbbbbb]">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
-						deleniti doloribus nisi officia suscipit amet necessitatibus
-						repudiandae ad ab iste, aut, odio facilis accusamus culpa nostrum et
-						omnis officiis laboriosam! Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Perferendis dolorem veritatis deleniti qui neque.
-						Pariatur tempora necessitatibus, quis quos exercitationem fuga velit
-						quia possimus voluptas unde ratione tenetur quisquam, voluptate quas
-						amet natus aut illum perspiciatis dolor itaque sint? Doloribus
-						laboriosam quia fugit deserunt rem animi in eveniet aperiam!
-						Quaerat.
+					<p className="text-[#bbbbbb] ">
+						For the dreamers of tomorrow to capture the present which the world
+						limits you to percieve
 					</p>
 				</div>
-				<div className="col-span-4 md:col-span-1 shadow-xl bg-white shadow-gray-700 rounded-xl py-4 text-black">
+				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
 					<div className="p-2">
 						<p className="text-center font-bold pb-2">Rules</p>
-						<div className="grid grid-cols-3 md:grid-cols-1">
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 1"}
+						<div className="">
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								1. One Person from every college.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 2"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								2. Prelims in the forenoon, finals before the valecdictory
+								ceremony.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 3"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								3. No Usage of profane words
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" />
-								{"Rule 4"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								4. There will be a cross question by the judges and the audience
+								and the evaluation is based on the performances
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 5"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								5. Participants will be informed of their characters an hour
+								prior to the event
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 6"}
-							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 7"}
-							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 8"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								6. accessories will be provided to act out stuff
 							</p>
 						</div>
 					</div>
 				</div>
-				<Link href="/#projects">
+				<Link href="/#sponsers">
 					<p className="underline cursor-pointer">Back</p>
 				</Link>
 			</div>

@@ -39,7 +39,7 @@ const Main = () => {
 					</Link>
 				</div>
 				<div className="md:pl-8">
-					<div className="absolute bottom-80">
+					<div className="absolute bottom-72">
 						<Image
 							src={FloatingImg}
 							className={styles.floating}
