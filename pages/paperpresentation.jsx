@@ -27,7 +27,7 @@ const paperpresentation = (
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">{"Videography"}</h2>
+					<h2 className="py-2">{"Paper Presentation"}</h2>
 					<h3>Aura</h3>
 				</div>
 			</div>
@@ -53,7 +53,7 @@ const paperpresentation = (
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								3. One mobile phone is permitted per Team {`(`}Must have an
-								active data connection{`(`}.
+								active data connection{`)`}.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								4. Every team will be timed.
@@ -80,7 +80,7 @@ const paperpresentation = (
 					</div>
 				</div>
 				<Link href="/#sponsers">
-					<p className="underline cursor-pointer">Back</p>
+					<p className="underline cursor-pointer text-[#bbbbbb]">Back</p>
 				</Link>
 			</div>
 		</div>

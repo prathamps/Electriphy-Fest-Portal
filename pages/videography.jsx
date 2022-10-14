@@ -70,7 +70,7 @@ const videography = (
 					</div>
 				</div>
 				<Link href="/#sponsers">
-					<p className="underline cursor-pointer">Back</p>
+					<p className="underline cursor-pointer text-[#bbbbbb]">Back</p>
 				</Link>
 			</div>
 		</div>

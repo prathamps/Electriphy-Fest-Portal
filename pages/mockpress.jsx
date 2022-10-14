@@ -27,7 +27,7 @@ const mockpress = (
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">{"Videography"}</h2>
+					<h2 className="py-2">{"Mock Press"}</h2>
 					<h3>Knife to meet you</h3>
 				</div>
 			</div>
@@ -65,7 +65,7 @@ const mockpress = (
 					</div>
 				</div>
 				<Link href="/#sponsers">
-					<p className="underline cursor-pointer">Back</p>
+					<p className="underline cursor-pointer text-[#bbbbbb]">Back</p>
 				</Link>
 			</div>
 		</div>

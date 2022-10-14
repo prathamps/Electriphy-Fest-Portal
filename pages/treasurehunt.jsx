@@ -27,7 +27,7 @@ const treasurehunt = (
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">{"Videography"}</h2>
+					<h2 className="py-2">{"Treasure Hunt"}</h2>
 					<h3>Into the void</h3>
 				</div>
 			</div>
@@ -36,9 +36,10 @@ const treasurehunt = (
 				<div className="col-span-4">
 					<p>Treasure Hunt</p>
 					<h2 className="text-white">Overview</h2>
-					<p className="text-[#bbbbbb] ">
-						Whyd you do it? It wasn{`'`}t me! For the Fame? Money give you crazy
-						happiness!! Go on, Be Creative
+					<p className="text-[#bbbbbb] w-4/5">
+						We are what happens when a primordial mixture of hydrogen and helium
+						evolves for so long it begins to ask where i came from. So, we
+						venture out into the void for answers.
 					</p>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
@@ -61,7 +62,7 @@ const treasurehunt = (
 					</div>
 				</div>
 				<Link href="/#sponsers">
-					<p className="underline cursor-pointer">Back</p>
+					<p className="underline cursor-pointer text-[#bbbbbb]">Back</p>
 				</Link>
 			</div>
 		</div>

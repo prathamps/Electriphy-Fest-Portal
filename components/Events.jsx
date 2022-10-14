@@ -73,21 +73,19 @@ const Events = () => {
 						<EventItem
 							title="Circuit Designer"
 							backgroundImg={circuitdesignerImg}
-							projectUrl="/videography"
+							projectUrl="/circuitdesigner"
 							tech="Execuit"
 							rule1="1. One Team from every college."
 							rule2="2. A team can consist of maximum 2 participants."
-							rule3="3. Video can be edited."
-							rule4="4. Creativity is welcomed. "
-							rule5="5. Minimum requirements are for the video to be in 720p@30fps"
-							rule6="6. Video must be submitted in mp4 format."
-							rule7="7. Certain places are restricted around the campus"
-							rule8="8. No going outside the campus not even the gate"
+							rule3="3. All the necessary components and the circuit diagram shall be provided"
+							rule4="4. Components will be provided on giving the right answer to the questions"
+							rule5="5. After completing the circuit, the circuit will be tested"
+							rule6="6. Team whose circuit gives the required output first, wins"
 						/>
 						<EventItem
 							title="Quiz"
 							backgroundImg={quizImg}
-							projectUrl="/videography"
+							projectUrl="/quiz"
 							tech="Zap"
 							rule1="1. One Team from every college."
 							rule2="2. A team can consist of maximum 2 participants."

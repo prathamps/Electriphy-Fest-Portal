@@ -18,6 +18,9 @@ const Main = () => {
 				background: "linear-gradient(to right,  #000000,#020206,#090F1C)",
 			}}
 		>
+			<div id={styles.stars}></div>
+			<div id={styles.stars2}></div>
+			<div id={styles.stars3}></div>
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex flex-row justify-center md:justify-between items-center">
 				<div>
 					<p className="uppercase text-sm tracking-widest text-[#bbbbbb]">

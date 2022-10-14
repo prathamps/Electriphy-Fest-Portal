@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import videographyImg from "../public/assets/projects/videography.png"
+import quizImg from "../public/assets/projects/quiz.png"
 import { RiRadioButtonFill } from "react-icons/ri"
 import Link from "next/link"
 
@@ -23,66 +23,65 @@ const quiz = (
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={videographyImg}
+					src={quizImg}
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">{"Videography"}</h2>
-					<h3>Pixels over the vaccum</h3>
+					<h2 className="py-2">{"Quiz"}</h2>
+					<h3>May I axe you a question?</h3>
 				</div>
 			</div>
 
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
 				<div className="col-span-4">
-					<p>Videography</p>
+					<p>Quiz</p>
 					<h2 className="text-white">Overview</h2>
-					<p className="text-[#bbbbbb]">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
-						deleniti doloribus nisi officia suscipit amet necessitatibus
-						repudiandae ad ab iste, aut, odio facilis accusamus culpa nostrum et
-						omnis officiis laboriosam! Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Perferendis dolorem veritatis deleniti qui neque.
-						Pariatur tempora necessitatibus, quis quos exercitationem fuga velit
-						quia possimus voluptas unde ratione tenetur quisquam, voluptate quas
-						amet natus aut illum perspiciatis dolor itaque sint? Doloribus
-						laboriosam quia fugit deserunt rem animi in eveniet aperiam!
-						Quaerat.
+					<p className="text-[#bbbbbb] w-4/5">
+						The Science quiz aims to inculate in the minds of young students a
+						spirit of scientific enquiry, analytical thinking. Also to keep up
+						with the development of science in fields like astronomy and
+						electronics
 					</p>
 				</div>
-				<div className="col-span-4 md:col-span-1 shadow-xl bg-white shadow-gray-700 rounded-xl py-4 text-black">
+				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
 					<div className="p-2">
 						<p className="text-center font-bold pb-2">Rules</p>
-						<div className="grid grid-cols-3 md:grid-cols-1">
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 1"}
+						<div className="">
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								1. One Team from every college.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 2"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								2. A team can consist of maximum 2 participants.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 3"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								3. A soft copy should be submitted atleast a day prior to the
+								event, along with a hard copy on the day.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" />
-								{"Rule 4"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								4. Each team will get 6 + 2 minutes to present their paper and
+								two minutes will be devoted to question from the judges
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 5"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								5. The participants will have to present their papers in
+								MsPowerPoint format only. Blantant plagiarism from the internet
+								is not encourages and will not be entertained.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 6"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								6. The decision of the judges and event heads are considered
+								definitive and binding for all and cannot be challeneged.
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 7"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								7. Topics are resitricted to PU physics text book
 							</p>
-							<p className="text-gray-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" /> {"Rule 8"}
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								8. Failure to comply with any of the rules may result in the
+								paper being rejected.
 							</p>
 						</div>
 					</div>
 				</div>
-				<Link href="/#projects">
-					<p className="underline cursor-pointer">Back</p>
+				<Link href="/#sponsers">
+					<p className="underline cursor-pointer text-[#bbbbbb]">Back</p>
 				</Link>
 			</div>
 		</div>
