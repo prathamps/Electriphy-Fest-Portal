@@ -116,12 +116,12 @@ export const Registration = () => {
 											eventParticipants={eventParticipants.circuit_designer}
 											setEventParticipants={setEventParticipants}
 											description="Ciruit design - Execuit"
-											rule1="1. One Person from every college."
-											rule2="2. Team must consist of two participants"
+											rule1="1. One Team from every college."
+											rule2="2. A team can consist of maximum 2 participants."
 											rule3="3. All the necessary components and the circuit diagram shall be provided"
-											rule4="4. After completing the cicuit, the circuit will be tested"
-											rule5="5. Team whose circuit gives the required output first, wins"
-											rule6=" "
+											rule4="4. Components will be provided on giving the right answer to the	questions"
+											rule5="5. After completing the cicuit, the circuit will be tested"
+											rule6="6. Team whose circuit gives the required output first, wins"
 											rule7=" "
 											rule8=" "
 											rule9=" "
@@ -148,15 +148,15 @@ export const Registration = () => {
 											eventParticipants={eventParticipants.treasure_hunt}
 											setEventParticipants={setEventParticipants}
 											description="Mock Press aka Knife to meet you"
-											rule1="1. One Person from every college."
+											rule1="1. One Team from every college."
 											rule2="2. A team can consist of maximum 4 participants."
-											rule3="3. One mobile phone is permitted per Team (Must have an active data connection)."
-											rule4="4. Every team will be timed. "
-											rule5="5. There will be boundaries set so you know where to look"
-											rule6="6. Cheating, Sabotaging, Replacing items etc, will lead to instant disqualification."
-											rule7="7. No mingling with the other teams, or taking pictures of the campus prior to the event"
-											rule8="8. A  team must stick together at all times"
-											rule9="9. No asking for help with any of the people involved in the event, volunteers included "
+											rule3="3. There will be boundaries set so you know where to look"
+											rule4="4. Cheating, Sabotaging, Replacing items etc, will lead to instant disqualification. "
+											rule5="5. No mingling with the other teams, or taking pictures of the campus prior to the event"
+											rule6="6. A  team must stick together at all times"
+											rule7="7. No asking for help with any of the people involved in the event, volunteers included"
+											rule8=""
+											rule9=" "
 										/>
 										<EventRegisterCard
 											title={"Videography"}
@@ -164,13 +164,14 @@ export const Registration = () => {
 											eventParticipants={eventParticipants.videography}
 											setEventParticipants={setEventParticipants}
 											rule1="1. One Team from every college."
-											rule2="2. A team can consist of maximum 3 participants."
+											rule2="2. Three make a team."
 											rule3="3. Video can be edited."
 											rule4="4. Creativity is welcomed. "
 											rule5="5. Minimum requirements are for the video to be in 720p@30fps"
 											rule6="6. Video must be submitted in mp4 format."
-											rule7="7. Certain places are restricted around the campus"
-											rule8="8. No going outside the campus not even the gate"
+											rule7="6. Certain places are restricted around the campus venturing
+											outside the campus or even beyond the gate is prohibited"
+											rule8="8. Not compulsory for overall championship"
 										/>
 										<EventRegisterCard
 											title={"Paper Presentation"}
@@ -179,12 +180,12 @@ export const Registration = () => {
 											setEventParticipants={setEventParticipants}
 											rule1="1. One Team from every college."
 											rule2="2. A team can consist of maximum 2 participants."
-											rule3="3. A soft copy should be submitted atleast a day prior to the event, along with a hard copy on the day."
-											rule4="4. Each team will get 6 + 2 minutes to present their paper and two minutes will be devoted to question from the judges "
-											rule5="5. The participants will have to present their papers in MsPowerPoint format only. Blantant plagiarism from the internet is not encourages and will not be entertained."
-											rule6="6. The decision of the judges and event heads are considered definitive and binding for all and cannot be challeneged."
-											rule7="7. Topics are resitricted to PU physics text book"
-											rule8="8. Failure to comply with any of the rules may result in the paper being rejected."
+											rule3="3. Each team will get 5 + 1 minutes to present their paper and two minutes will be devoted to question from the judges "
+											rule4="4. The participants will have to present their papers in MsPowerPoint format only. Blantant plagiarism from the internet is not encourages and will not be entertained."
+											rule5="5. The decision of the judges and event heads are considered definitive and binding for all and cannot be challeneged."
+											rule6="6. Topics are resitricted to PU physics text book"
+											rule7="7. Failure to comply with any of the rules may result in the paper being rejected."
+											rule8=""
 											rule9=" "
 										/>
 									</motion.div>

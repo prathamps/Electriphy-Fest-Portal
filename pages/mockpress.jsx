@@ -37,8 +37,8 @@ const mockpress = (
 					<p>Mock Press</p>
 					<h2 className="text-white">Overview</h2>
 					<p className="text-[#bbbbbb] ">
-						Whyd you do it? It wasn{`'`}t me! For the Fame? Money give you crazy
-						happiness!! Go on, Be Creative
+						Why{`'`}d you do it? It wasn{`'`}t me! For the Fame? Money give you
+						crazy happiness!! Go on, Be Creative
 					</p>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
@@ -49,17 +49,22 @@ const mockpress = (
 								1. One Person from every college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. Team must consist of two participants
+								2. Prelims in the forenoon, finals before the valecdictory
+								ceremony
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. All the necessary components and the circuit diagram shall be
-								provided
+								3. No usage of profane words
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. After completing the cicuit, the circuit will be tested
+								4. There will be cross question by the judges and the audience
+								and the evaluation is based on performances
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. Team whose circuit gives the required output first, wins
+								5. Participants will be informed of their characters a day prior
+								to the event
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								6. Accessories will be provided to act out stuff
 							</p>
 						</div>
 					</div>

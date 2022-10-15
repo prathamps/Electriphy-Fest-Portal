@@ -51,31 +51,13 @@ const quiz = (
 								1. One Team from every college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. A team can consist of maximum 2 participants.
+								2. Team must consist of two participants
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. A soft copy should be submitted atleast a day prior to the
-								event, along with a hard copy on the day.
+								3. Comprises of four rounds
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. Each team will get 6 + 2 minutes to present their paper and
-								two minutes will be devoted to question from the judges
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. The participants will have to present their papers in
-								MsPowerPoint format only. Blantant plagiarism from the internet
-								is not encourages and will not be entertained.
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								6. The decision of the judges and event heads are considered
-								definitive and binding for all and cannot be challeneged.
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								7. Topics are resitricted to PU physics text book
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								8. Failure to comply with any of the rules may result in the
-								paper being rejected.
+								4. Theme is physical sciences
 							</p>
 						</div>
 					</div>

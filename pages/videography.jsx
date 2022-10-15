@@ -46,25 +46,29 @@ const videography = (
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="">
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								1. One Person from every college.
+								1. One Team per College
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. Prelims in the forenoon, finals before the valecdictory
-								ceremony.
+								2. Three make a team.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. No Usage of profane words
+								3. Video can be edited
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. There will be a cross question by the judges and the audience
-								and the evaluation is based on the performances
+								4. Creativity is welcomed
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. Participants will be informed of their characters an hour
-								prior to the event
+								5. Minimum requirements are for the video to be in 720p@30fps
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								6. accessories will be provided to act out stuff
+								6. Video must be submitted in MP4 format
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								7. Certain places are restricted around the campus venturing
+								outside the campus or even beyond the gate is prohibited
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								8. Not compulsory for overall championship
 							</p>
 						</div>
 					</div>

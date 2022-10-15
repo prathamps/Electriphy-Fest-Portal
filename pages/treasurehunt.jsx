@@ -47,16 +47,28 @@ const treasurehunt = (
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="">
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								1. One Person from every college.
+								1. One Team from every college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. Team must consist of two participants
+								2. A team can consist of maximum 4 participants.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. Comprises of four rounds
+								3. There will be boundaries set so you know where to look
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. Theme is physical sciences
+								4. Cheating, Sabotaging, Replacing items etc, will lead to
+								instant disqualification.
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								5. No mingling with the other teams, or taking pictures of the
+								campus prior to the event
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								6. A team must stick together at all times
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								7. No asking for help with any of the people involved in the
+								event, volunteers included
 							</p>
 						</div>
 					</div>

@@ -37,8 +37,8 @@ const paperpresentation = (
 					<p>Paper Presentation</p>
 					<h2 className="text-white">Overview</h2>
 					<p className="text-[#bbbbbb] ">
-						Whyd you do it? It wasn{`'`}t me! For the Fame? Money give you crazy
-						happiness!! Go on, Be Creative
+						Put forth thy ideas for better or worse, but for the glory of
+						science
 					</p>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl lg:relative lg:right-16 lg:w-80 bg-white shadow-gray-700 rounded-xl py-4 text-black">
@@ -46,35 +46,27 @@ const paperpresentation = (
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="">
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								1. One Person from every college.
+								1. A team can consist of maximum 2 participants.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. A team can consist of maximum 4 participants.
+								2. Each team will get 5 + 1 minutes to present their paper and
+								two minutes will be devoted to question from the judges
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. One mobile phone is permitted per Team {`(`}Must have an
-								active data connection{`)`}.
+								3. The participants will have to present their papers in
+								MsPowerPoint format only. Blantant plagiarism from the internet
+								is not encourages and will not be entertained.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. Every team will be timed.
+								4. The decision of the judges and event heads are considered
+								definitive and binding for all and cannot be challeneged.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. There will be boundaries set so you know where to look
+								5. Topics are resitricted to PU physics text book
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								6. Cheating, Sabotaging, Replacing items etc, will lead to
-								instant disqualification.
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								7. No mingling with the other teams, or taking pictures of the
-								campus prior to the event
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								8. A team must stick together at all times
-							</p>
-							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								9. No asking for help with any of the people involved in the
-								event, volunteers included
+								6. Failure to comply with any of the rules may result in the
+								paper being rejected.
 							</p>
 						</div>
 					</div>
