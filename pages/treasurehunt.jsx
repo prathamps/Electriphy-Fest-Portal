@@ -53,21 +53,24 @@ const treasurehunt = (
 								2. A team can consist of maximum 4 participants.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								3. There will be boundaries set so you know where to look
+								3. Every team will be timed
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. Cheating, Sabotaging, Replacing items etc, will lead to
+								4. There will be boundaries set so you know where to look
+							</p>
+							<p className="text-gray-600 py-2 pl-4 flex items-center">
+								5. Cheating, Sabotaging, Replacing items etc, will lead to
 								instant disqualification.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. No mingling with the other teams, or taking pictures of the
+								6. No mingling with the other teams, or taking pictures of the
 								campus prior to the event
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								6. A team must stick together at all times
+								7. A team must stick together at all times
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								7. No asking for help with any of the people involved in the
+								8. No asking for help with any of the people involved in the
 								event, volunteers included
 							</p>
 						</div>

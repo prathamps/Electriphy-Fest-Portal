@@ -24,7 +24,7 @@ const registersuccess = () => {
 						/>
 
 						<div className="flex flex-col">
-							<p>Follow us Instagram for updates on the event: </p>
+							<p>Follow us on Instagram for updates on the event: </p>
 
 							<div className="flex flex-col">
 								<a

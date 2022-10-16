@@ -49,7 +49,7 @@ const circuitdesigner = (
 								1. One Team from every college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. A team can consist of maximum 2 participants.
+								2. Team must consist of maximum 2 participants.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								3. All the necessary components and the circuit diagram shall be

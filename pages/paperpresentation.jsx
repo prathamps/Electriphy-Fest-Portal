@@ -49,23 +49,23 @@ const paperpresentation = (
 								1. A team can consist of maximum 2 participants.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. Each team will get 5 + 1 minutes to present their paper and
-								two minutes will be devoted to question from the judges
+								2. Each team will get 5 + 1 minutes to present their papers and
+								one minute will be devoted to question from the judges
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								3. The participants will have to present their papers in
-								MsPowerPoint format only. Blantant plagiarism from the internet
-								is not encourages and will not be entertained.
+								MS-Powerpoint{`(PPT)`} format only. Blantant plagiarism from the
+								internet is not encouraged and will not be entertained.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								4. The decision of the judges and event heads are considered
 								definitive and binding for all and cannot be challeneged.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								5. Topics are resitricted to PU physics text book
+								5. Topics are resitricted to PU physics syllabus
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								6. Failure to comply with any of the rules may result in the
+								6. Failure to comply with any of the rules will result in the
 								paper being rejected.
 							</p>
 						</div>

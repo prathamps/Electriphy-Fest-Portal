@@ -2,16 +2,20 @@ import React, { useState } from "react"
 import { db } from "./firebase"
 import { collection, addDoc } from "firebase/firestore"
 
+import styles from "./Register.module.css"
+
 // Framer motion
 
 import { motion } from "framer-motion"
 import { EventRegisterCard } from "./EventRegisterCard"
 import { useRouter } from "next/router"
+import { BsCheck } from "react-icons/bs"
 
 export const Registration = () => {
 	const [colname, setColName] = useState("")
 	const [contactnum, setContactNum] = useState()
 	const [eventParticipants, setEventParticipants] = useState({})
+	const [checked, setChecked] = useState(false)
 
 	const router = useRouter()
 	const [loader, setLoader] = useState(false)
@@ -30,6 +34,7 @@ export const Registration = () => {
 				college_name: colname || null,
 				college_contact: contactnum || null,
 				eventParticipants: eventParticipants || null,
+				agreed: checked,
 			})
 				.then(() => {
 					console.log("Document written with ID: ", docRef)
@@ -49,6 +54,10 @@ export const Registration = () => {
 		// setColName("")
 		// setContactNum("")
 		// setEventParticipants("")
+	}
+
+	const handleChecked = () => {
+		setChecked(!checked)
 	}
 
 	return (
@@ -106,7 +115,7 @@ export const Registration = () => {
 											rule1="1. One Person from every college."
 											rule2="2. Prelims in the forenoon, finals before the valecdictory ceremony."
 											rule3="3. No Usage of profane words"
-											rule4="4. There will be a cross question by the judges and the audience and the evaluation is based on the performances "
+											rule4="4. There will be a cross questions by the judges and the audience and the evaluation is based on the performances "
 											rule5="5. Participants will be informed of their characters an hour prior to the event"
 											rule6="6. accessories will be provided to act out stuff"
 										/>
@@ -117,7 +126,7 @@ export const Registration = () => {
 											setEventParticipants={setEventParticipants}
 											description="Ciruit design - Execuit"
 											rule1="1. One Team from every college."
-											rule2="2. A team can consist of maximum 2 participants."
+											rule2="2. Team must consist of maximum 2 participants."
 											rule3="3. All the necessary components and the circuit diagram shall be provided"
 											rule4="4. Components will be provided on giving the right answer to the	questions"
 											rule5="5. After completing the cicuit, the circuit will be tested"
@@ -131,8 +140,8 @@ export const Registration = () => {
 											no_input={[1, 2]}
 											eventParticipants={eventParticipants.quiz}
 											setEventParticipants={setEventParticipants}
-											description="Mock Press aka Knife to meet you"
-											rule1="1. One Person from every college."
+											description="Quiz aka Zap"
+											rule1="1. One Team per college."
 											rule2="2. Team must consist of two participants"
 											rule3="3. Comprises of four rounds"
 											rule4="4. Theme is physical sciences "
@@ -147,48 +156,77 @@ export const Registration = () => {
 											no_input={[1, 2, 3, 4]}
 											eventParticipants={eventParticipants.treasure_hunt}
 											setEventParticipants={setEventParticipants}
-											description="Mock Press aka Knife to meet you"
+											description="Treasure hunt aka Into the void"
 											rule1="1. One Team from every college."
 											rule2="2. A team can consist of maximum 4 participants."
-											rule3="3. There will be boundaries set so you know where to look"
-											rule4="4. Cheating, Sabotaging, Replacing items etc, will lead to instant disqualification. "
-											rule5="5. No mingling with the other teams, or taking pictures of the campus prior to the event"
-											rule6="6. A  team must stick together at all times"
-											rule7="7. No asking for help with any of the people involved in the event, volunteers included"
-											rule8=""
-											rule9=" "
+											tule3="3. Every team will be timed"
+											rule4="4. There will be boundaries set so you know where to look"
+											rule5="5. Cheating, Sabotaging, Replacing items etc, will lead to instant disqualification. "
+											rule6="6. No mingling with the other teams, or taking pictures of the campus prior to the event"
+											rule7="7. A  team must stick together at all times"
+											rule8="8. No asking for help with any of the people involved in the event, volunteers included"
+											rule9="(Minimum 3 participants)"
 										/>
 										<EventRegisterCard
 											title={"Videography"}
 											no_input={[1, 2, 3]}
 											eventParticipants={eventParticipants.videography}
 											setEventParticipants={setEventParticipants}
+											description="Videography aka Pixels over the vaccum"
 											rule1="1. One Team from every college."
 											rule2="2. Three make a team."
 											rule3="3. Video can be edited."
 											rule4="4. Creativity is welcomed. "
 											rule5="5. Minimum requirements are for the video to be in 720p@30fps"
 											rule6="6. Video must be submitted in mp4 format."
-											rule7="6. Certain places are restricted around the campus venturing
-											outside the campus or even beyond the gate is prohibited"
+											rule7="7. Certain places are restricted around the campus venturing outside the campus or even beyond the gate is prohibited"
 											rule8="8. Not compulsory for overall championship"
+											rule9="(Minimum one participant)"
 										/>
 										<EventRegisterCard
 											title={"Paper Presentation"}
+											description="Paper Presentation aka aura"
 											no_input={[1, 2]}
 											eventParticipants={eventParticipants.paper_presentation}
 											setEventParticipants={setEventParticipants}
-											rule1="1. One Team from every college."
-											rule2="2. A team can consist of maximum 2 participants."
-											rule3="3. Each team will get 5 + 1 minutes to present their paper and two minutes will be devoted to question from the judges "
-											rule4="4. The participants will have to present their papers in MsPowerPoint format only. Blantant plagiarism from the internet is not encourages and will not be entertained."
-											rule5="5. The decision of the judges and event heads are considered definitive and binding for all and cannot be challeneged."
-											rule6="6. Topics are resitricted to PU physics text book"
-											rule7="7. Failure to comply with any of the rules may result in the paper being rejected."
-											rule8=""
-											rule9=" "
+											rule1="1. A team can consist of maximum 2 participants."
+											rule2="2. Each team will get 5 + 1 minutes to present their papers and one minute will be devoted to question from the judges"
+											rule3="The participants will have to present their papers in MS-Powerpoint(PPT) format only. Blantant plagiarism from the internet is not encouraged and will not be entertained."
+											rule4="4. The decision of the judges and event heads are considered definitive and binding for all and cannot be challeneged."
+											rule5="5. Topics are resitricted to PU physics syllabus"
+											rule6="6. Failure to comply with any of the rules will result in the paper being rejected."
+											rule7="(Minimum one participant)"
+											rule8=" "
 										/>
 									</motion.div>
+									<div className="flex flex-row">
+										<div className={styles.React__checkbox}>
+											<label>
+												<input
+													type="checkbox"
+													className={styles.React__checkbox_input}
+													checked={checked}
+													required
+													onChange={handleChecked}
+												/>
+
+												<span className={styles.span}>
+													{!checked ? (
+														""
+													) : (
+														<BsCheck
+															color="white"
+															className="z-20"
+															size={100}
+														/>
+													)}
+												</span>
+											</label>
+										</div>
+										<div className="text-white w-full flex place-items-center pl-4">
+											I have verified the given information in the above form
+										</div>
+									</div>
 									<div className="w-full flex place-content-center p-8">
 										<button
 											className="w-full md:w-1/4 rounded-2xl p-4 mt-4 font-bold"

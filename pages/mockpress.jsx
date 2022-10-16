@@ -56,7 +56,7 @@ const mockpress = (
 								3. No usage of profane words
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								4. There will be cross question by the judges and the audience
+								4. There will be cross questions by the judges and the audience
 								and the evaluation is based on performances
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">

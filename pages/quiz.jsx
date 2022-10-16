@@ -48,7 +48,7 @@ const quiz = (
 						<p className="text-center font-bold pb-2">Rules</p>
 						<div className="">
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								1. One Team from every college.
+								1. One Team per college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
 								2. Team must consist of two participants
