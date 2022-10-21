@@ -15,7 +15,7 @@ const Sponsers = () => {
 		>
 			<div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
 				<p className="uppercase text-3xl mb-12 font-medium tracking-widest text-[#f3bd7b]">
-					Our Sponsers
+					Our Sponsors
 				</p>
 				<div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
 					<div className="p-6 shadow-xl rounded-xl   lg:w-96 hover:scale-105 ease-in duration-300 bg-[#131216]">

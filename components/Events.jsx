@@ -71,7 +71,7 @@ const Events = () => {
 							rule9="9. No asking for help with any of the people involved in the event, volunteers included "
 						/>
 						<EventItem
-							title="Circuit Designer"
+							title="Circuit Assembly"
 							backgroundImg={circuitdesignerImg}
 							projectUrl="/circuitdesigner"
 							tech="Execuit"
@@ -86,7 +86,7 @@ const Events = () => {
 							title="Quiz"
 							backgroundImg={quizImg}
 							projectUrl="/quiz"
-							tech="Zap"
+							tech="May I Axe you a question"
 							rule1="1. One Team from every college."
 							rule2="2. A team can consist of maximum 2 participants."
 							rule3="3. A soft copy should be submitted atleast a day prior to the event, along with a hard copy on the day."

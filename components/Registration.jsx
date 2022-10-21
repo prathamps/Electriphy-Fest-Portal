@@ -120,11 +120,11 @@ export const Registration = () => {
 											rule6="6. accessories will be provided to act out stuff"
 										/>
 										<EventRegisterCard
-											title={"Circuit Designer"}
+											title={"Circuit Assembly"}
 											no_input={[1, 2]}
 											eventParticipants={eventParticipants.circuit_designer}
 											setEventParticipants={setEventParticipants}
-											description="Ciruit design - Execuit"
+											description="Circuit Assembly - Execuit"
 											rule1="1. One Team from every college."
 											rule2="2. Team must consist of maximum 2 participants."
 											rule3="3. All the necessary components and the circuit diagram shall be provided"
@@ -140,7 +140,7 @@ export const Registration = () => {
 											no_input={[1, 2]}
 											eventParticipants={eventParticipants.quiz}
 											setEventParticipants={setEventParticipants}
-											description="Quiz aka Zap"
+											description="Quiz aka May I Axe You A Question?"
 											rule1="1. One Team per college."
 											rule2="2. Team must consist of two participants"
 											rule3="3. Comprises of four rounds"

@@ -83,7 +83,7 @@ const Navbar = () => {
 							<Link href="/#events">Events</Link>
 						</li>
 						<li className="ml-10 text-sm uppercase hover:border-b bg-white text-black font-bold rounded-xl w-36 h-8 p-2 flex place-content-center">
-							<Link href="/register">Registeration</Link>
+							<Link href="/register">Registration</Link>
 						</li>
 					</ul>
 					{/* Hamburger Icon */}
@@ -158,7 +158,7 @@ const Navbar = () => {
 								className="bg-[#bbbbbb] text-black rounded-lg"
 							>
 								<li onClick={() => setNav(false)} className="py-4 text-sm">
-									Registeration
+									Registration
 								</li>
 							</Link>
 						</ul>
