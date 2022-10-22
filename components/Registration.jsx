@@ -113,10 +113,10 @@ export const Registration = () => {
 											setEventParticipants={setEventParticipants}
 											description="Mock Press aka Knife to meet you"
 											rule1="1. One Person from every college."
-											rule2="2. Prelims in the forenoon, finals before the valecdictory ceremony."
+											rule2="2. Prelims in the forenoon, finals before the valedictory ceremony."
 											rule3="3. No Usage of profane words"
 											rule4="4. There will be a cross questions by the judges and the audience and the evaluation is based on the performances "
-											rule5="5. Participants will be informed of their characters an hour prior to the event"
+											rule5="5. Participants will be informed of their characters a day prior to the event"
 											rule6="6. accessories will be provided to act out stuff"
 										/>
 										<EventRegisterCard

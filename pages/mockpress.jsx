@@ -49,7 +49,7 @@ const mockpress = (
 								1. One Person from every college.
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
-								2. Prelims in the forenoon, finals before the valecdictory
+								2. Prelims in the forenoon, finals before the valedictory
 								ceremony
 							</p>
 							<p className="text-gray-600 py-2 pl-4 flex items-center">
