@@ -10,6 +10,10 @@
 		"heroku-postbuild": "npm run build"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.10.4",
+		"@emotion/styled": "^11.10.4",
+		"@material-ui/icons": "^4.11.3",
+		"@mui/material": "^5.10.10",
 		"css-loader": "^6.7.1",
 		"firebase": "^9.11.0",
 		"framer-motion": "^7.5.3",
@@ -21,7 +25,8 @@
 		"react-scroll": "^1.8.7",
 		"request": "2.79.0",
 		"sass-loader": "^13.1.0",
-		"style-loader": "^3.3.1"
+		"style-loader": "^3.3.1",
+		"uuid": "^9.0.0"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.12",
