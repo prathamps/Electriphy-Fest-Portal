@@ -7,6 +7,7 @@ const nextConfig = {
 			"cdn-icons-png.flaticon.com",
 			"www.shareicon.net",
 			"upload.wikimedia.org",
+			"www.ashcomputers.in",
 		],
 	},
 }
